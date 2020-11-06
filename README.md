@@ -1,9 +1,9 @@
-# Colocalization Analysis of nuclear $\beta$-Catenin
+# Colocalization Analysis of nuclear β-Catenin
 
-Wnt signling activation results in $\beta$-Catenin nuclear localization releaving repression of Wnt target gene expression. Nuclear localization of $\beta$-catenin could be measured by identifying fluorescently-tagged $\beta$-catenin in DAPI-positive nuclei.
+Wnt signling activation results in β-Catenin nuclear localization releaving repression of Wnt target gene expression. Nuclear localization of β-catenin could be measured by identifying fluorescently-tagged β-catenin in DAPI-positive nuclei.
 
 ## About 
-Customized macro and R scripts performs processing of 24-bit composite images for colocaliazation analysis of nuclear $\beta$-Catenin using EzColocalization in Fiji and data processing for visualization using R.
+Customized macro and R scripts performs processing of 24-bit composite images for colocaliazation analysis of nuclear β-Catenin using EzColocalization in Fiji and data processing for visualization using R.
 
 ### 1. Fiji macro script 
 
@@ -14,9 +14,7 @@ The script was modified from 'Process folder' macro script. Modifications includ
   - Run [EzColocalization plugin](https://github.com/DrHanLim/EzColocalization) with the follwoing settings: 
   
 &nbsp;
-
     **Inputs** 
-    
       - reporter_1_(ch.1) = blue channel (DAPI) image 
       - reporter_2_(ch.2) = red channel ($\beta$-Catenin signal) image 
       - cell_identification_input = blue channel (DAPI) image 
@@ -25,15 +23,11 @@ The script was modified from 'Process folder' macro script. Modifications includ
       - alignthold4 = default 
     
 &nbsp;
-
     **Cell Filters** 
-    
       - Pre-watershed filter: area = 2500-Infinity 
     
 &nbsp;
-
     **Visualization** 
-    
       - heatmap scale = cell 
       - Color map channel 1 = blue 
       - Color map channel 2 = magenta 
@@ -41,9 +35,7 @@ The script was modified from 'Process folder' macro script. Modifications includ
       - Metric: tos
       
 &nbsp;
-
     **Analysis** 
-    
       - Metric threshold method = costes' 
       - All ft-c1-1=10 
       - All ft-c2-1=10 
@@ -58,7 +50,6 @@ The script was modified from 'Process folder' macro script. Modifications includ
 
 ### 2. R script 
  
-
 The script aggregates colocalization measurements and processes data for downstream 
 visualization and statistical comparisons using [ggpubr](https://github.com/kassambara/ggpubr) R package.
 
