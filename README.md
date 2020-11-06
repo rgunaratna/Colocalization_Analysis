@@ -16,7 +16,7 @@ The script was modified from 'Process folder' macro script. Modifications includ
 
     **Inputs**
       - reporter_1_(ch.1) = blue channel (DAPI) image 
-      - reporter_2_(ch.2) = red channel ($\beta$-Catenin signal) image 
+      - reporter_2_(ch.2) = red channel (β-Catenin signal) image 
       - cell_identification_input = blue channel (DAPI) image 
       - alignthold1 = default 
       - alignthold2 = default 
