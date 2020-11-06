@@ -14,6 +14,7 @@ The script was modified from 'Process folder' macro script. Modifications includ
   - Run [EzColocalization plugin](https://github.com/DrHanLim/EzColocalization) with the follwoing settings: 
   
 &nbsp;
+
     **Inputs** 
       - reporter_1_(ch.1) = blue channel (DAPI) image 
       - reporter_2_(ch.2) = red channel ($\beta$-Catenin signal) image 
@@ -23,10 +24,12 @@ The script was modified from 'Process folder' macro script. Modifications includ
       - alignthold4 = default 
     
 &nbsp;
+
     **Cell Filters** 
       - Pre-watershed filter: area = 2500-Infinity 
     
 &nbsp;
+
     **Visualization** 
       - heatmap scale = cell 
       - Color map channel 1 = blue 
@@ -35,6 +38,7 @@ The script was modified from 'Process folder' macro script. Modifications includ
       - Metric: tos
       
 &nbsp;
+
     **Analysis** 
       - Metric threshold method = costes' 
       - All ft-c1-1=10 
