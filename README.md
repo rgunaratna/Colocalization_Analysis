@@ -54,3 +54,9 @@ The script aggregates colocalization measurements and processes data for downstr
 visualization and statistical comparisons using [ggpubr](https://github.com/kassambara/ggpubr) R package.
 
 
+### Citations 
+
+1.	Schindelin, J.; Arganda-Carreras, I. & Frise, E. et al. "[Fiji: an open-source platform for biological-image analysis](https://www.nature.com/articles/nmeth.2019)", Nature methods (2012) 9(7): 676-682, PMID 22743772, doi:10.1038/nmeth.2019.
+2.	Stauffer, W., Sheng, H., and Lim, H. N. "[EzColocalization: An ImageJ plugin for visualizing and measuring colocalization in cells and organisms.](https://www.nature.com/articles/s41598-018-33592-8)" Scientific reports 8.1 (2018): 15764.
+3.	Sheng, H., Stauffer, W., Lim, H. N. “[Systematic and general method for quantifying localization in microscopy images.](https://bio.biologists.org/content/5/12/1882)” Biology Open (2016) 5: 1882-1893, doi: 10.1242/bio.019893
+
