@@ -11,7 +11,7 @@ The script was modified from 'Process folder' macro script. Modifications includ
 
   - Check for multi-channel 24-bit composite image before processing an image 
   - Split channels 
-  - Run [EzColocalization plugin](https://github.com/DrHanLim/EzColocalization) with the follwoing settings: 
+  - Run [EzColocalization plugin](https://github.com/DrHanLim/EzColocalization) with the following settings: 
 
 
     **Inputs**
